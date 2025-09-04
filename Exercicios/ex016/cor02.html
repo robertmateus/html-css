@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+       * { /* Configurações globais das CSS */
+            height: 100%;
+        }
+        body {
+        /*
+        - to top: gradiente na parte de baixo
+        - to bottom: gradinte do topo para baixo (esse é o padrão
+        - to right: o gradiente começa na esqueda e vai para a - direita
+        - to left: o gradiente começa na direita e vai para a esquerda
+        */
+            background-image:linear-gradient(to right, #7D2D5D 10%, #B21DBD);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+<h1>Testando Gradinte</h1> 
+</body>
+</html>
